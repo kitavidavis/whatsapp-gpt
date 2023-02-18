@@ -1,13 +1,14 @@
 {
-  "name": "whatsapp-chatgpt",
+  "name": "whatsapp-gpt",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx vite-node src/index.ts"
+    "start": "node index.js"
   },
-  "author": "navopw",
+  "author": "David Kitavi",
   "license": "MIT",
+  "type": "module",
   "dependencies": {
     "chatgpt": "^4.4.1",
     "dotenv": "^16.0.3",
